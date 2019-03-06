@@ -2,12 +2,11 @@
 layout: null
 ---
 {% for employee in site.data.employees %}
-{{employee.site}}
 <table style="font-family:Arial,Helvetica,sans-serif;width:450px" border="0px">
 	<thead>
 		<tr>
 			<th colspan="2" height="25px" width="450px">
-				<hr style="min-height:8px;background-color:rgb(66,144,0);border:0px">
+				<hr style="min-height:8px;background-color:{{ site.data.sites[employee.site].color }};border:0px">
 			</th>
 		</tr>
 	</thead>

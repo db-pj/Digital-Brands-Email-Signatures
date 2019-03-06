@@ -1,3 +1,4 @@
+{% for employee in site.data.employees %}
 <table style="font-family:Arial,Helvetica,sans-serif;width:450px" border="0px">
 	<thead>
 		<tr>
@@ -10,9 +11,9 @@
 		<tr>
 			<td>
 				<p style="margin:0px;font-family:Arial,Helvetica,sans-serif;color:rgb(80,80,80);font-size:16px">
-					<strong>Ashley Fricker</strong>
+					<strong>{{ employee.name }}</strong>
 					<br>
-					Finance Editor
+					{{ employee.title }}
 				</p>
 				<p style="margin:0px;font-family:Arial,Helvetica,sans-serif;color:rgb(80,80,80);font-size:12px">&nbsp;</p>
 				<p style="margin:0px;font-family:Arial,Helvetica,sans-serif;color:rgb(80,80,80);font-size:12px">
@@ -37,3 +38,4 @@
 		</tr>
 	</tbody>
 </table>
+{% endfor %}

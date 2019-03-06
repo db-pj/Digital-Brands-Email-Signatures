@@ -1,0 +1,7 @@
+badcredit:
+  name: BadCredit.org
+  url: https://www.badcredit.org/
+  displayUrl: www.badcredit.org
+  color: rgb(66,144,0)
+  logo: https://s3.amazonaws.com/db-email-signatures/retina/badcredit.png
+  logoAlt: BadCredit.org

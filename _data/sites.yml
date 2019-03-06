@@ -6,14 +6,14 @@ bc:
   logo: https://s3.amazonaws.com/db-email-signatures/retina/badcredit.png
   logoAlt: BadCredit.org
   twitter: BadCreditorg
-db:
-  name: DigitalBrands.com
-  url: https://www.digitalbrands.com/
-  displayUrl: www.digitalbrands.com
-  color: rgb(236,68,36)
-  logo: https://s3.amazonaws.com/db-email-signatures/retina/digitalbrands.png
-  logoAlt: DigitalBrands.com
-  twitter: DigitalBrandsUS
+cr:
+  name: CardRates.com
+  url: https://www.cardrates.com/
+  displayUrl: www.cardrates.com
+  color: rgb(102,167,219)
+  logo: https://s3.amazonaws.com/db-email-signatures/retina/cardrates.png
+  logoAlt: CardRates.com
+  twitter: CardRates
 da:
   name: DatingAdvice.com
   url: https://www.datingadvice.com/
@@ -22,3 +22,27 @@ da:
   logo: https://s3.amazonaws.com/db-email-signatures/retina/datingadvice.png
   logoAlt: DatingAdvice.com
   twitter: DatingEditor
+db:
+  name: DigitalBrands.com
+  url: https://www.digitalbrands.com/
+  displayUrl: www.digitalbrands.com
+  color: rgb(236,68,36)
+  logo: https://s3.amazonaws.com/db-email-signatures/retina/digitalbrands.png
+  logoAlt: DigitalBrands.com
+  twitter: DigitalBrandsUS
+dn:
+  name: DatingNews.com
+  url: https://www.datingnews.com/
+  displayUrl: www.datingnews.com
+  color: rgb(254,93,67)
+  logo: https://s3.amazonaws.com/db-email-signatures/retina/datingnews.png
+  logoAlt: DatingNews.com
+  twitter: DatingNewsCom
+ha:
+  name: HostingAdvice.com
+  url: https://www.hostingadvice.com/
+  displayUrl: www.hostingadvice.com
+  color: rgb(241,106,40)
+  logo: https://s3.amazonaws.com/db-email-signatures/retina/hostingadvice.png
+  logoAlt: HostingAdvice.com
+  twitter: Hosting_Advice

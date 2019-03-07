@@ -4,4 +4,4 @@ page_gen:
     template: template.html
     name: name
     dir: employees
-		extension: html
+    extension: html

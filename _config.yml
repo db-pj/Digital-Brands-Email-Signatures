@@ -1,0 +1,7 @@
+page_gen:
+  - index_files: true
+    data: employees
+    template: template.html
+    name: name
+    dir: employees
+		extension: html

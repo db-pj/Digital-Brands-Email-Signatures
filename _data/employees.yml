@@ -1,7 +1,9 @@
 - name: PJ Fancher
   title: Senior Web Developer
+  slug: pj
   site: db
 
 - name: Hayley Matthews
   title: Editor-in-Chief
+  slug: hayley
   site: da

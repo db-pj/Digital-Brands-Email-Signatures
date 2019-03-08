@@ -2,5 +2,5 @@
 layout: blank
 ---
 {% for employee in site.employees  %}
-	<h3><a href="{{ site.baseurl }}{{ employee.url  }}">{{ employee.name }} {{ site.data.sites[employee.site].name }}</a></h3>
+	<h3><a href="{{ site.baseurl }}{{ employee.url  }}">{{ employee.name }} @ {{ site.data.sites[employee.site].name }}</a></h3>
 {% endfor %}

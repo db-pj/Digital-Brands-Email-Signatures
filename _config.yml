@@ -2,4 +2,7 @@ collections:
   employees:
     output: true
     permalink: /:collection/:name/
-    layout: default
+
+defaults:
+  - values:
+      layout: default

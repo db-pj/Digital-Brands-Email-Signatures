@@ -1,10 +1,6 @@
 ---
 layout: blank
 ---
-<html>
-	<body>
-		{% for employee in site.employees  %}
-			<h2><a href="{{ employee.url  }}">{{employee.name}}</a></h2>
-		{% endfor %}
-	</body>
-</html>
+{% for employee in site.employees  %}
+	<h2><a href="{{ employee.url  }}">{{employee.name}}</a></h2>
+{% endfor %}

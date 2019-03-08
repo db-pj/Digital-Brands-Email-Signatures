@@ -1,6 +1,6 @@
 ---
-name: PJ Fancher
-title: Senior Web Developer
-site: db
-twitter: pjfancher
+name    : PJ Fancher
+title   : Senior Web Developer
+site    : db
+twitter : pjfancher
 ---

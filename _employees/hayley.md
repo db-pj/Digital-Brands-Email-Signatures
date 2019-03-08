@@ -1,5 +1,5 @@
 ---
-name: Hayley Matthews
-title: Editor-in-Chief
-site: da
+name  : Hayley Matthews
+title : Editor-in-Chief
+site  : da
 ---

@@ -1,6 +1,6 @@
 {% assign twitter = site.data.sites[page.site].twitter %}
 {% if page.twitter %}
-	assign twitter = page.twitter
+    {% assign twitter = page.twitter %}
 {% endif %}
 <table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px">
 	<thead>

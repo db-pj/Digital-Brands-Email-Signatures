@@ -1,3 +1,7 @@
+{% assign twitter = site.data.sites[page.site].twitter %}
+{% if page.twitter %}
+	assign twitter = page.twitter
+{% endif %}
 <table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px">
 	<thead>
 		<tr>
@@ -26,7 +30,7 @@
 					<br>
 					Visit:&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>
-					Follow:&nbsp;<a href="https://twitter.com/{{ page.twitter || site.data.sites[page.site].twitter }}" style="color:{{ site.data.defaults.color }};text-decoration:none" target="_blank">@{{ page.twitter || site.data.sites[page.site].twitter }}</a>
+					Follow:&nbsp;<a href="https://twitter.com/{{ page.twitter || site.data.sites[page.site].twitter }}" style="color:{{ site.data.defaults.color }};text-decoration:none" target="_blank">@{{ twitter }}</a>
 				</p>
 			</td>
 			<td valign="top">

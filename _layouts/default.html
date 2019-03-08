@@ -2,7 +2,7 @@
 	<thead>
 		<tr>
 			<th colspan="2" height="25px" width="{{ site.data.defaults.width }}">
-				<hr style="min-height:8px;background-color:{{ site.data.sites[employee.site].color }};border:0px">
+				<hr style="min-height:8px;background-color:{{ site.data.sites[page.site].color }};border:0px">
 			</th>
 		</tr>
 	</thead>
@@ -24,14 +24,14 @@
 					<br><br>
 					Call:&nbsp;<a href="tel:{{ site.data.defaults.phone }}" value="+1{{ site.data.defaults.phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ site.data.defaults.phone  }}</a>
 					<br>
-					Visit:&nbsp;<a href="{{ site.data.sites[employee.site].url }}" style="color:{{ site.data.sites[employee.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[employee.site].displayUrl }}</a>
+					Visit:&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>
-					Follow:&nbsp;<a href="https://twitter.com/{{ site.data.sites[employee.site].twitter }}" style="color:{{ site.data.defaults.color }};text-decoration:none" target="_blank">@{{ site.data.sites[employee.site].twitter }}</a>
+					Follow:&nbsp;<a href="https://twitter.com/{{ site.data.sites[page.site].twitter }}" style="color:{{ site.data.defaults.color }};text-decoration:none" target="_blank">@{{ site.data.sites[page.site].twitter }}</a>
 				</p>
 			</td>
 			<td valign="top">
-				<a href="{{ site.data.sites[employee.site].url }}" target="_blank">
-					<img src="{{ site.data.sites[employee.site].logo }}" alt="{{ site.data.sites[employee.site].logoAlt }}" title="{{ site.data.sites[employee.site].logoAlt }}" style="float:right;height:{{ site.data.defaults.logoSize }};width:{{ site.data.defaults.logoSize }};">
+				<a href="{{ site.data.sites[page.site].url }}" target="_blank">
+					<img src="{{ site.data.sites[page.site].logo }}" alt="{{ site.data.sites[page.site].logoAlt }}" title="{{ site.data.sites[page.site].logoAlt }}" style="float:right;height:{{ site.data.defaults.logoSize }};width:{{ site.data.defaults.logoSize }};">
 				</a>
 			</td>
 		</tr>

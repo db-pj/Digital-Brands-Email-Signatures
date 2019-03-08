@@ -1,0 +1,4 @@
+collections:
+  employees:
+    output: true
+    permalink: /:collection/:name

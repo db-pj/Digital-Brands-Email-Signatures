@@ -1,5 +1,6 @@
 ---
-name  : Hayley Matthews
-title : Editor-in-Chief
-site  : da
+name      : Hayley Mathis
+title     : Lifestyle Editor
+site      : db
+phone_ext : 806
 ---

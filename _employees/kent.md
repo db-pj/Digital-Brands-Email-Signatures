@@ -1,6 +1,6 @@
 ---
-name    : Kent Stefan
+name    : Kent Stephan
 title   : Creative Director
 site    : db
-twitter : kent_stefan
+twitter : kent_stephan
 ---

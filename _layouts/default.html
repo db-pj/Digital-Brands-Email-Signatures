@@ -4,6 +4,12 @@
     {% assign twitter = page.twitter %}
 {% endif %}
 
+<!-- Check for user phone -->
+{% assign phone =  site.data.defaults.phone %}
+{% if page.phone %}
+	{% assign phone = page.phone %}
+{% endif %}
+
 <!-- Check for user phone extension -->
 {% assign phone_ext = '' %}
 {% if page.phone_ext %}
@@ -27,14 +33,14 @@
 					{{ page.title }}
 				</p>
 				<p style="margin:0px;font-size:12px">&nbsp;</p>
-				<p style="margin:0px;font-family:{{ site.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:12px">
+				<p style="margin:0px;font-family:{{ ste.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:12px">
 					{{ site.data.defaults.name }}
 					<br>
 					{{ site.data.defaults.address }}
 					<br>
 					{{ site.data.defaults.address2 }}
 					<br><br>
-					Call:&nbsp;<a href="tel:{{ site.data.defaults.phone }}" value="+1{{ site.data.defaults.phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ site.data.defaults.phone  }} {{ phone_ext }}</a>
+					Call:&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ phone }} {{ phone_ext }}</a>
 					<br>
 					Visit:&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>

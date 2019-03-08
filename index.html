@@ -2,5 +2,5 @@
 layout: blank
 ---
 {% for employee in site.employees  %}
-	<h2><a href="/{{ employee.url  }}">{{employee.name}}</a></h2>
+	<h2><a href="{{ site.baseurl }}/{{ employee.url  }}">{{employee.name}}</a></h2>
 {% endfor %}

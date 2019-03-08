@@ -1,6 +1,6 @@
 ---
 name      : Danielle Spurlin
 title     : Operations Manager
-extension : 802
+phone_ext : 802
 site      : db
 ---

@@ -5,9 +5,9 @@
 {% endif %}
 
 <!-- Check for user phone extension -->
-{% assign ext = '' %}
-{% if page.extinsion %}
-    {% assign ext = ' ext. ' | append: page.extinsion %}
+{% assign phone_ext = '' %}
+{% if page.phone_ext %}
+    {% assign phone_ext = ' ext. ' | append: page.phone_ext %}
 {% endif %}
 
 <table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px">
@@ -34,7 +34,7 @@
 					<br>
 					{{ site.data.defaults.address2 }}
 					<br><br>
-					Call:&nbsp;<a href="tel:{{ site.data.defaults.phone }}" value="+1{{ site.data.defaults.phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ site.data.defaults.phone  }} {{ ext }}</a>
+					Call:&nbsp;<a href="tel:{{ site.data.defaults.phone }}" value="+1{{ site.data.defaults.phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ site.data.defaults.phone  }} {{ phone_ext }}</a>
 					<br>
 					Visit:&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>

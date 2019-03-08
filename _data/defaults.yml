@@ -2,7 +2,7 @@ name: Digital Brands Inc.
 address: 15 SE 1st Ave, 2nd Floor
 address2: Gainesville, FL 32601
 phone: 888-217-5962
-height: 450px
+width: 450px
 font: Arial,Helvetica,sans-serif
 color: rgb(80,80,80) 
 logoSize: 200px;

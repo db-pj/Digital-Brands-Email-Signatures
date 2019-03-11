@@ -1,3 +1,5 @@
+<h2>Updating your Digital Brands Email Signature</h2>
+
 <h2>Removing Underlines From Email Signatures</h2>
 
 <p>If you have underlines in your email signature, follow these steps:</p>

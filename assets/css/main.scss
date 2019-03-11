@@ -12,13 +12,14 @@ a {
 	color: #666;
 	text-decoration: none;
 	transition: all 0.15s ease-in-out;
+
+	&:visited {
+		color: #666;
+	}
+
+	&:hover {
+		color: #ec4424;
+		text-decoration: underline;
+	}
 }
 
-&:visited {
-	color: #666;
-}
-
-&:hover {
-	color: #ec4424;
-	text-decoration: underline;
-}

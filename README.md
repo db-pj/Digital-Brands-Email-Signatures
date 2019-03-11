@@ -27,5 +27,6 @@ If you have underlines in your email signature, follow these steps:
 **Mac Safari**: press Command+Shift+B
 
 **Firefox**: right click the toolbar and click "Bookmarks Toolbar".
+
 <br>
 If you're curious, you can view javascript source for the bookmarklet [here](https://gist.github.com/db-roberto/1d75e1d58ce0f2ee9f98ab13a146160f).

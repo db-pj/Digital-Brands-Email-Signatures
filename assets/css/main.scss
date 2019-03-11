@@ -1,25 +1,26 @@
 ---
 ---
+$link-color: #444;
+$link-color-hover: #ec4424;
 
 .db-logo {
 	display: block;
 	height: 65px;
 	width: 240px;
 	margin: 0 auto;
-}
+} // .db-logo
 
 a {
-	color: #666;
+	color: $link-color;
 	text-decoration: none;
 	transition: all 0.15s ease-in-out;
 
 	&:visited {
-		color: #666;
-	}
+		color: $link-color;
+	} // &:visited
 
 	&:hover {
-		color: #ec4424;
+		color: $link-color-hover;
 		text-decoration: underline;
-	}
-}
-
+	} // &:hover
+} // a

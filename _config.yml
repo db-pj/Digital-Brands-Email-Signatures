@@ -6,3 +6,6 @@ collections:
 defaults:
   - values:
       layout: signature
+
+sass:
+  style: compact

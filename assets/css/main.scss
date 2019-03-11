@@ -20,7 +20,6 @@ body {
 
 a {
 	color: $link-color;
-	transition: all 0.15s ease-in-out;
 
 	&:visited {
 		color: $link-color;
@@ -30,3 +29,7 @@ a {
 		color: $link-color-hover;
 	} // &:hover
 } // a
+
+p {
+	color: #666;
+}

@@ -5,4 +5,4 @@ collections:
 
 defaults:
   - values:
-      layout: default
+      layout: signature

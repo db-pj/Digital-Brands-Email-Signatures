@@ -1,4 +1,5 @@
-<h2>Updating your Digital Brands Email Signature</h2>
+<h2>Updating Your Digital Brands Email Signature</h2>
+
 
 <h2>Removing Underlines From Email Signatures</h2>
 

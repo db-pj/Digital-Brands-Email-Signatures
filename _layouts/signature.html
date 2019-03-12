@@ -1,16 +1,16 @@
-{% comment %} Check for user level twitter. Default to site level twitter {% endcomment %}
+{% comment %} Check for user level twitter. Default to site level twitter. {% endcomment %}
 {% assign twitter = site.data.sites[page.site].twitter %}
 {% if page.twitter %}
 	{% assign twitter = page.twitter %}
 {% endif %}
 
-{% comment %} Check for user phone {% endcomment %}
+{% comment %} Check for user phone. {% endcomment %}
 {% assign phone =  site.data.defaults.phone %}
 {% if page.phone %}
 	{% assign phone = page.phone %}
 {% endif %}
 
-{% comment %} Check for user phone extension {% endcomment %}
+{% comment %} Check for user phone extension. {% endcomment %}
 {% assign phone_ext = '' %}
 {% if page.phone_ext %}
 	{% assign phone_ext = ' ext. ' | append: page.phone_ext %}

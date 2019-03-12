@@ -1,4 +1,4 @@
-<!-- Check for user level twitter. Default to site level twitter -->
+{% comment } Check for user level twitter. Default to site level twitter {% endcomment %}
 {% assign twitter = site.data.sites[page.site].twitter %}
 {% if page.twitter %}
     {% assign twitter = page.twitter %}

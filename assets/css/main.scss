@@ -3,6 +3,7 @@
 $font-family: Helvetica;
 $link-color: #444;
 $link-color-hover: #ec4424;
+$link-color-dark: #cb2f12;
 
 body {
 	font-family: $font-family;
@@ -43,3 +44,19 @@ a {
 	display: block;
 	font-weight: bold;
 } // .sig-link
+
+
+.instructions {
+	a {
+		color: $link-color-hover;
+
+		&:visited {
+			color: $link-color-hover;
+		} // &:visited
+
+		&:hover {
+			color: $link-color-dark;
+			text-decoration: underline;
+		} // &:hover
+	} // a
+} // .instructions

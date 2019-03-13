@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1><a href="instructions.html">Digital Brands Email Signature Instructions</a></h1>
+<h1><a href="{{ site.baseurl }}/instructions/">Digital Brands Email Signature Instructions</a></h1>
 {% for employee in site.employees  %}
 	<a href="{{ site.baseurl }}{{ employee.url  }}" class="sig-link">{{ employee.name }} @ {{ site.data.sites[employee.site].name }}</a>
 {% endfor %}

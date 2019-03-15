@@ -1,6 +1,6 @@
 ---
 name     : Brittney Mayer
 title    : Contributing Editor
-site     : db
+site     : cr
 linkedin : https://www.linkedin.com/in/brittney-edits/
 ---

@@ -1,5 +1,5 @@
 ---
-name     : Roberto Sanchez
-title    : Web Developer
-site     : db
+name  : Roberto Sanchez
+title : Web Developer
+site  : db
 ---

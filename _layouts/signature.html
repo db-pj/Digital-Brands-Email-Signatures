@@ -41,6 +41,10 @@
 					{{ site.data.defaults.address2 }}
 					<br><br>
 					Call:&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ phone }} {{ phone_ext }}</a>
+					{% if page.mobile %}
+						Mobile:&nbsp;<a href="tel:{{ page.mobile }}" value="+1{{ page.mobile }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ page.mobile }}</a>
+
+					{% endif %}
 					<br>
 					Visit:&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>

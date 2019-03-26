@@ -8,4 +8,4 @@ defaults:
       layout: signature
 
 sass:
-  style: compact
+  style: compressed

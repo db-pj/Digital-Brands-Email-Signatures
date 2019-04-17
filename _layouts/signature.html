@@ -53,9 +53,15 @@
 				</p>
 			</td>
 			<td valign="top">
+				<!--[if mso]>
+				<table style="width:{{ site.data.defaults.logoSize }};">
+				<![endif]-->
 				<a href="{{ site.data.sites[page.site].url }}" target="_blank">
 					<img src="{{ site.data.sites[page.site].logo }}" alt="{{ site.data.sites[page.site].logoAlt }}" title="{{ site.data.sites[page.site].logoAlt }}" style="float:right;height:{{ site.data.defaults.logoSize }};width:{{ site.data.defaults.logoSize }};">
 				</a>
+				<!--[if mso]>
+				</table>
+				<![endif]-->
 			</td>
 		</tr>
 	</tbody>

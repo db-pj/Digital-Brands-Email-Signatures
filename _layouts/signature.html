@@ -20,7 +20,7 @@
 	<thead>
 		<tr>
 			<th colspan="2" height="25px" width="{{ site.data.defaults.width }}">
-				<p style="height:8px;min-height:8px;width:100%;background-color:{{ site.data.sites[page.site].color }};border:0px;line-height:0.5">&nbsp;</p>
+				<p style="height:8px;min-height:8px;width:100%;background-color:{{ site.data.sites[page.site].color }};border:0px;line-height:1%">&nbsp;</p>
 			</th>
 		</tr>
 	</thead>
@@ -40,7 +40,7 @@
 					<br>
 					<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address2 }}</span>
 					<br><br>
-					<span style="color:{{ site.data.defaults.color }};">Call:</span>&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ phone }} {{ phone_ext }}</a>
+					<span style="color:{{ site.data.defaults.color }};">Call:</span>&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;"><span style="text-decoration:none;">{{ phone }} {{ phone_ext }}</span></a>
 					{% if page.mobile %}
 						<br>
 						<span style="color:{{ site.data.defaults.color }};">Mobile:</span>&nbsp;<a href="tel:{{ page.mobile }}" value="+1{{ page.mobile }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ page.mobile }}</a>

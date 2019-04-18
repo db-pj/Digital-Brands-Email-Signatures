@@ -33,19 +33,21 @@
 					{{ page.title }}
 				</p>
 				<p style="margin:0px;font-size:12px">&nbsp;</p>
-				<p style="margin:0px;font-family:{{ site.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:12px;text-decoration:none!important">
-					<a href="{{ site.data.sites[page.site].url }}" style="pointer-events:none;text-decoration:none;color:{{ site.data.defaults.color }};" target="_blank">{{ site.data.sites[page.site].name }}</a>
-					<br>
-					<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address }}</span>
-					<br>
-					<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address2 }}</span>
-					<br><br>
-					<span style="color:{{ site.data.defaults.color }};">Call:</span>&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;"><span style="text-decoration:none;">{{ phone }} {{ phone_ext }}</span></a>
-					{% if page.mobile %}
+				<p style="margin:0px;font-family:{{ site.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:12px">
+					<a href="{{ site.data.sites[page.site].url }}" style="pointer-events:none;text-decoration:none!important;color:{{ site.data.defaults.color }};" target="_blank">{{ site.data.sites[page.site].name }}
+						<span style="color:{{ site.data.defaults.color }};">{{ site.data.sites.[page.site].name }}</span>
 						<br>
-						<span style="color:{{ site.data.defaults.color }};">Mobile:</span>&nbsp;<a href="tel:{{ page.mobile }}" value="+1{{ page.mobile }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ page.mobile }}</a>
+						<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address }}</span>
+						<br>
+						<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address2 }}</span>
+						<br><br>
+						<span style="color:{{ site.data.defaults.color }};">Call:</span>&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;"><span style="text-decoration:none;">{{ phone }} {{ phone_ext }}</span></a>
+						{% if page.mobile %}
+							<br>
+							<span style="color:{{ site.data.defaults.color }};">Mobile:</span>&nbsp;<a href="tel:{{ page.mobile }}" value="+1{{ page.mobile }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ page.mobile }}</a>
 
-					{% endif %}
+						{% endif %}
+					</a>
 					<br>
 					<span style="color:{{ site.data.defaults.color }};">Visit:</span>&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>

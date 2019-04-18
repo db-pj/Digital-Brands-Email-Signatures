@@ -16,17 +16,18 @@
 	{% assign phone_ext = ' ext. ' | append: page.phone_ext %}
 {% endif %}
 
-<table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }};margin-top:16px" border="0px">
+<table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px">
 	<thead>
 		<tr>
-			<th colspan="2" height="8" width="{{ site.data.defaults.width }}" style="height:8px;background-color:{{ site.data.sites[page.site].color }}">
+			<th colspan="2" height="8" width="{{ site.data.defaults.width }}" style="height:8px">
+				<p style="line-height:0.65;min-height:8px;height:8px;width:100%;margin-top:8px;margin-bottom:8px;background-color:{{ site.data.sites[page.site].color }};border:0px">&nbsp;</p>
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>
-				<p style="margin:0px;margin-top:10px;font-family:{{ site.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:16px">
+				<p style="margin:0px;font-family:{{ site.data.defaults.font }};color:{{ site.data.defaults.color }};font-size:16px">
 					<strong>{{ page.name }}</strong>
 					<br>
 					{{ page.title }}
@@ -53,7 +54,7 @@
 			</td>
 			<td valign="top">
 				<a href="{{ site.data.sites[page.site].url }}" target="_blank">
-					<img src="{{ site.data.sites[page.site].logo }}" alt="{{ site.data.sites[page.site].logoAlt }}" title="{{ site.data.sites[page.site].logoAlt }}" height="{{ site.data.defaults.logoSize }}" width="{{ site.data.defaults.logoSize }}" style="float:right;height:{{ site.data.defaults.logoSize }};width:{{ site.data.defaults.logoSize }};margin-top:10px;">
+					<img src="{{ site.data.sites[page.site].logo }}" alt="{{ site.data.sites[page.site].logoAlt }}" title="{{ site.data.sites[page.site].logoAlt }}" height="{{ site.data.defaults.logoSize }}" width="{{ site.data.defaults.logoSize }}" style="float:right;height:{{ site.data.defaults.logoSize }};width:{{ site.data.defaults.logoSize }};">
 				</a>
 			</td>
 		</tr>

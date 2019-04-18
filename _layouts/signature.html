@@ -16,7 +16,7 @@
 	{% assign phone_ext = ' ext. ' | append: page.phone_ext %}
 {% endif %}
 
-<table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px" class="sig-version-2.1">
+<table style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px" class="sig-version-{{ site.data.defaults.width }}">
 	<thead>
 		<tr>
 			<th colspan="2" height="8" width="{{ site.data.defaults.width }}" style="height:8px">
@@ -60,4 +60,4 @@
 		</tr>
 	</tbody>
 </table>
-<!-- DB Sig ver. 2.1 (Apr 2019) -->
+<!-- DB Sig ver. {{ site.data.defaults.width }} (Apr 2019) -->

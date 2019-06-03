@@ -1,6 +1,0 @@
----
-name     : Brittney Mayer
-title    : Contributing Editor
-site     : db
-linkedin : https://www.linkedin.com/in/brittney-edits/
----

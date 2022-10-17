@@ -4,18 +4,6 @@
 	{% assign twitter = page.twitter %}
 {% endif %}
 
-{% comment %} Check for user phone. {% endcomment %}
-{% assign phone =  site.data.defaults.phone %}
-{% if page.phone %}
-	{% assign phone = page.phone %}
-{% endif %}
-
-{% comment %} Check for user phone extension. {% endcomment %}
-{% assign phone_ext = '' %}
-{% if page.phone_ext %}
-	{% assign phone_ext = ' ext. ' | append: page.phone_ext %}
-{% endif %}
-
 <!-- Build {{ site.github.build_revision }} -->
 <!-- Version {{ site.data.defaults.version }} -->
 <table class="version-{{ site.data.defaults.version }} build-{{ site.github.build_revision }}" width={{ site.data.defaults.width }} style="font-family:{{ site.data.defaults.font }};width:{{ site.data.defaults.width }}" border="0px">
@@ -44,12 +32,6 @@
 						<span style="color:{{ site.data.defaults.color }};">{{ site.data.defaults.address2 }}</span>
 					</a>
 					<br><br>
-					<span style="color:{{ site.data.defaults.color }};">Call:</span>&nbsp;<a href="tel:{{ phone }}" value="+1{{ phone }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;"><span style="text-decoration:none;">{{ phone }} {{ phone_ext }}</span></a>
-					{% if page.mobile %}
-						<br>
-						<span style="color:{{ site.data.defaults.color }};">Mobile:</span>&nbsp;<a href="tel:{{ page.mobile }}" value="+1{{ page.mobile }}" target="_blank" style="color:{{ site.data.defaults.color }};text-decoration:none;">{{ page.mobile }}</a>
-					{% endif %}
-					<br>
 					<span style="color:{{ site.data.defaults.color }};">Visit:</span>&nbsp;<a href="{{ site.data.sites[page.site].url }}" style="color:{{ site.data.sites[page.site].color }};font-weight:bold;text-decoration:none" target="_blank">{{ site.data.sites[page.site].displayUrl }}</a>
 					<br>
 					<span style="color:{{ site.data.defaults.color }};">Follow:</span>&nbsp;<a href="https://twitter.com/{{ twitter }}" style="color:{{ site.data.defaults.color }};text-decoration:none" target="_blank">@{{ twitter }}</a>{% if page.linkedin %}, <a href="{{ page.linkedin }}" style="color:{{ site.data.defaults.color  }};text-decoration:none" target="_blank">LinkedIn</a>{% endif %}

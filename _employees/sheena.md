@@ -1,5 +1,5 @@
 ---
 name     : Sheena Holt
-title    : Staff Writer, Lifestyle
+title    : Managing Editor
 site     : db
 ---

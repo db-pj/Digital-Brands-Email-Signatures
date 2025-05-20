@@ -1,5 +1,5 @@
 ---
 name     : Shanna Ellis
-title    : Outreach Manager
+title    : News Manager, Lifestyle
 site     : dn
 ---

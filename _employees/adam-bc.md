@@ -1,6 +1,6 @@
 ---
 name      : Adam West
-title     : Finance Editor
+title     : News Manager, Finance
 site      : bc
 phone_ext : 811
 linkedin  : https://www.linkedin.com/in/adam-west-db/

@@ -1,5 +1,5 @@
 ---
 name  : Jon McDonald
-title : Contributing Editor
+title : Advice Manager, Finance
 site  : db
 ---

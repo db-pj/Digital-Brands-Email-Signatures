@@ -1,5 +1,5 @@
 ---
 name  : Amber Brooks
-title : Contributing Editor
+title : Advice Manager, Lifestyle
 site  : dn
 ---

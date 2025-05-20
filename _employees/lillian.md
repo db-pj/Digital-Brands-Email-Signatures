@@ -1,6 +1,6 @@
 ---
 name      : Lillian Guevara-Castro
-title     : Contributing Editor
+title     : Editor-In-Chief
 site      : db
 phone_ext : 810
 twitter   : LGuevaraCastro

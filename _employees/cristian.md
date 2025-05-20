@@ -1,6 +1,6 @@
 ---
 name     : Cristian Lopez
-title    : Outreach Manager
+title    : News Manager, Technology
 site     : db
 linkedin : https://www.linkedin.com/in/cristian-lopez-071498128/
 ---

@@ -1,5 +1,5 @@
 ---
-name      : Ashley Dull
+name      : Ashley Fricker
 title     : Media Relations
 site      : db
 linkedin  : https://www.linkedin.com/in/ashleydull/

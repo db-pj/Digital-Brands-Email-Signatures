@@ -1,5 +1,5 @@
 ---
-name      : Ashley Dull
+name      : Ashley Fricker
 title     : Media Relations
 site      : bc
 phone_ext : 808

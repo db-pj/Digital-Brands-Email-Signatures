@@ -1,6 +1,6 @@
 ---
 name      : Dennis Olson
-title     : PR Specialist
+title     : Director of PR, Technology
 site      : ha
 linkedin  : https://www.linkedin.com/in/olson949/
 ---
